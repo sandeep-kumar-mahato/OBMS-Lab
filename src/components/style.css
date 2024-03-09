@@ -1,0 +1,8 @@
+.neumorphism-profile-card {
+    background: #efecec;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #c7c7c7,
+        -5px -5px 15px #ffffff;
+    padding: 20px;
+    border: 2px solid #000000;
+}
