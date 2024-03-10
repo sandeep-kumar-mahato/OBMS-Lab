@@ -10,7 +10,7 @@ import LabFacilities from "./components/LabFacilities";
 import Gallery from "./components/Gallery";
 import Services from "./components/Services";
 import Fundings from "./components/Fundings";
-import Footer from "./components/Footer";/*  */
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
