@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import title from "../images/title.svg";
 
 export default function Footer() {
-  const [overlayVisible, setOverlayVisible] = useState(true); // Set overlayVisible initially to true
+  const [overlayVisible, setOverlayVisible] = useState(true);
   const overlayRef = useRef(null);
 
   const turnOnOverlay = () => {
