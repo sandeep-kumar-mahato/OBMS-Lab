@@ -11,6 +11,7 @@ import Gallery from "./components/Gallery";
 import Services from "./components/Services";
 import Fundings from "./components/Fundings";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer />
+      <Analytics />
     </Router>
   );
 };
