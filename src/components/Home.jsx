@@ -33,7 +33,7 @@ const Home = () => {
 
   const handleClick = () => {
     console.log("Button clicked!");
-    turnOnOverlay(); // Toggle the overlay when "Join Us" button is clicked
+    turnOnOverlay();
   };
 
   return (
@@ -55,7 +55,7 @@ const Home = () => {
             Join Us
           </button>
           <button
-            onClick={handleClick} // Ensure this button toggles the overlay as well
+            onClick={handleClick}
             className="bg-transparent hover:bg-slate-950 hover:text-slate-50 text-slate-950 border-2 border-slate-950 font-bold py-2 px-4 rounded"
           >
             Projects
