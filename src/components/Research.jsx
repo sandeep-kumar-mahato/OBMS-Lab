@@ -128,7 +128,7 @@ const Research = () => (
     <h1 className="text-3xl md:text-4xl uppercase font-bold my-4">
       Research Projects
     </h1>
-    <div className="w-full md:w-3/4 m-auto px-4 md:p-0">
+    <div className="w-full m-auto px-4 md:p-0">
       {sectionsData.map((section, index) => (
         <ProjectCard
           key={index}
