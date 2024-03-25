@@ -52,7 +52,7 @@ export default function Navbar() {
     <div className={`sticky top-0 ${isScrolled ? "bg-gray-800" : ""} z-50`}>
       <div
         className={`bg-slate-100 shadow-2xl shadow-slate-600 md:shadow-xl p-4 md:p-2 flex justify-between items-center duration-1000 ${
-          isScrolled ? "md:px-80" : " md:px-20"
+          isScrolled ? "md:px-40" : " md:px-20"
         }`}
       >
         <Link to="/" className="flex items-center" onClick={scrollToTop}>
@@ -62,14 +62,22 @@ export default function Navbar() {
             alt=""
           />
         </Link>
-        <h1
-          className={`font-sans text-lg font-semibold hidden md:block duration-1000 ${
-            isScrolled ? "text-sm" : "text-md"
-          }`}
-        >
-          National Institute of Technology
-          <br /> Rourkela, Odisha
-        </h1>
+        <div>
+          <h1
+            className={`font-sans text-center font-semibold hidden md:block duration-1000 ${
+              isScrolled ? "text-md" : "text-lg"
+            }`}
+          >
+            OPTO- BIOMEDICAL MICROSYSTEMS LABORATORY
+          </h1>
+          <p
+            className={`font-sans text-center font-semibold hidden md:block duration-1000 ${
+              isScrolled ? "text-sm" : "text-md"
+            }`}
+          >
+            Dept. of Biotechnology and medical engineering
+          </p>
+        </div>
         <div className={`icons hidden md:block justify-center`}>
           <SocialIcon
             className={`mx-1 ${isScrolled ? "p-0" : "p-4"}`}
